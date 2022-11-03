@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: gray;
+            
+        }
+
+        header{
+            background-color: white;
+            padding: 8px;
+            padding-top: 0px;
+            margin: 0;
+            border-radius: 10px;
+        }
+        header > h1{
+            text-align: center;
+            color: red;
+            margin-bottom: 10px;
+        }
+
+        nav{
+            text-align: center;
+            background-color: bisque;
+            box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.432);
+            border-radius: 10px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            text-shadow: 0.5px 0.5px 0.5px black;
+            color: rgb(139, 63, 63);
+            margin-right: 20px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color:aqua;
+            
+
+        }
+
+        nav a:active{
+            color: yellowgreen;
+        }
+
+        main{
+
+            background-color: white;
+            border-radius: 10px;
+            text-align: justify;
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: auto;
+            margin: 10px;
+            padding: 10px;
+            
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Meu site</h1>
+        <nav>
+
+        <a href="caixa01.html">Inicio</a>
+        <a href="#">Sobre</a>
+        <a href="#">Videos</a>
+        <a href="#">Cursos</a>
+        <a href="#">Graficos</a>
+
+        </nav>
+    </header>
+
+    <main>
+            <section id="assuntos"> </section>
+            <section id="noticias"></section>
+                <article> 
+                    <h2> Noticia quente</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex cum ullam autem dolore incidunt eveniet provident facere eum quos facilis, inventore, assumenda nam voluptatem! Repellat aspernatur adipisci tenetur dolorem iusto.</p>
+                    <aside>
+                        <p> Artigo escrito por Fulano</p>
+                    </aside>
+                </article>
+    </main>
+
+    <footer>
+        <p> Desenvolvido por André</p>
+    </footer>
+</body>
+</html>
+
+

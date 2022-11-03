@@ -1,0 +1,196 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Secular+One&display=swap');
+/* font google fonts */
+
+
+@font-face {
+    font-family:"idroid";
+    src: url(fontes/idroid.otf) format('opentype');
+    /* fonte da pasta do desafio */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*não sei*/ 
+    text-decoration: none;
+}
+
+body{ 
+    font-size: 100%;
+    background-color: #3BD17F;
+}
+
+
+header{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+    background-color: #1A5C38;
+    background-image: linear-gradient(to top, #1A5C38, #3BD17F);
+}
+
+.navbar :hover{
+    background-color: greenyellow;
+    display: inline-block;
+}
+
+.titulo{
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 23px;
+    padding-top: 28px;
+}
+
+.subtitulo{
+    font-size: 17px;
+}
+
+
+header nav{
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+
+nav a {
+    height: 15px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+}
+
+
+.corpo{
+    background-color: white;
+}
+
+
+a{
+    color: rgb(0, 95, 0);
+}
+
+
+.main-titulo{
+    font-family: idroid;
+    color: rgb(0, 116, 0);
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.text-main-titulo{
+    text-indent: 40px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.second-title{
+    background-color: #68e7a1;
+    background-image: linear-gradient(to right, #b0e0c6, #e7f5ed);
+    font-family: idroid;
+    color: rgb(0, 116, 0);
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+/* .container{
+    max-width: 700px;
+} */
+
+/* .div-video{
+    width: 100%;
+    padding-bottom: 56.25%;
+    position: absolute;
+} */
+
+/* .div-video iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+} */
+
+
+.text-second-title{
+    text-indent: 40px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.text-dandroid{
+    text-indent: 40px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.irin.img{
+    text-align: center;
+}
+
+.third-title{
+    background-color: #68e7a1;
+    background-image: linear-gradient(to right, #b0e0c6, #e7f5ed);
+    font-family: idroid;
+    color: rgb(0, 116, 0);
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.text-third-title{
+    text-indent: 40px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.text-irina-blok{
+    text-indent: 40px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.bugdroid-img{
+    text-align: center;
+}
+
+.text-bugdroid{
+    text-indent: 40px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.final-last{
+    background-color: #09ff782a;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.096);
+}
+
+.last-title{
+    background-color:#058800;
+    color: white;
+    border-radius: 3px;
+    /* text-indent: 20px; */
+    padding: 5px;
+    font-size: 18px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.li-right{
+    padding-left: 150px;
+}
+
+.final{
+    background-color: #1A5C38;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+}

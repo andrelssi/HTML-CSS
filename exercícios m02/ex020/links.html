@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        body{ 
+
+            font-family: fantasy;
+            font-size: 20px;
+        }
+            a{
+                color: red;
+                text-decoration: none; /* O text-decoration: none serve pra tirar o sublinhado */
+            }
+            a:visited{ /* o visited serve para saber se o link já foi visitado ou não, quando ele for visitado ele fica de outra cor, nesse caso estamos colocando a cor roxa para saber que ele já foi visitado */
+                color: blueviolet;
+                font-weight: bolder;
+            }
+
+            a:hover {
+                text-decoration: underline; /* a hover é quando passamos o mouse em cima, nesse caso o text-decoration está dizendo pra sublinhar, ou seja, quando passarmos o mouse em cima ele vai ficar sublinhado */
+                color: blue;
+            }
+
+            a:active {
+                color: orange /* O a:active é quando estamos clicando e segurando em um link. 
+                LEMBRE-SE O A É O A HREF, SE NÃO TIVER ESSA TAG NO HTML NADA DISSO VAI FUNCIONAR */
+            }
+
+            /* As pseudo-clasesses são digitadas com apenas dois pontos > : 
+            Os pseudo-elementos são digitadas com duas vezes dois pontos > ::*/
+
+            a::after{ /* Aqui está falando que o parâmentro é pra estar depois do link */
+                content: '[link]';
+                text-decoration: none;
+                color: aqua;
+                font-weight: normal;
+            }
+
+            .especial{
+                background-color: rgb(209, 248, 169);
+                
+            }
+    </style>
+</head>
+<body>
+    <h1> Personalizando links</h1>
+
+    <ul>
+        <!-- O Target=blank faz abrir o link em outra página, não na mesma-->
+        <li> <a href="https://www.youtube.com/" target="_blank">Youtube</a></li> 
+        <li> <a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+        <li> <a href="https://www.instagram.com/" class="especial" target="_blank">Instagram</a></li>
+        <li> <a href="https://www.tekimobile.com/dicas/conheca-20-sites-aleatorios/" target="_blank">Tekimobile</a></li>
+    </ul>
+</body>
+</html>
+
+<!-- 
+    #   = ID
+    .   = CLASS
+    :   = PSEUDO-CLASS
+    ::  = PSEUDO-ELEMENT
+    >   = CHILDREN (FILHO)
+-->
+
